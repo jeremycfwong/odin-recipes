@@ -3,6 +3,10 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 a {
     font-size: 20px;
     color: rgb(184, 152, 93);
@@ -25,7 +29,7 @@ li{
 }
 
 img {
-    width: 630px;
+    width: 750px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -33,6 +37,36 @@ img {
 }
 
 .sectionTitle{
-    color: rgb(145, 124, 82);
     font-style: italic;
+}
+
+.nav-bar{
+    display: inline;
+    width: 100px;
+    padding: 20px;
+    margin-inline: flow-root;
+    margin: 0
+}
+
+a {
+    margin: 10px;
+}
+
+.homepage-heading{
+    background-color: rgb(145, 124, 82);
+    color: white;
+    padding-left: 25px;
+}
+
+.wrap-content{
+    width: 750px;
+    margin-inline: auto;
+    align-items: center;
+}
+
+header {
+    color: white;
+    background-color: rgb(145, 124, 82);
+    display: grid;
+    margin-bottom: 10px;
 }
